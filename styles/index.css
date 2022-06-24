@@ -139,3 +139,22 @@ a {
     border: 1px solid #ac202d;
     cursor: pointer;
 }
+
+.groupThree .top {
+    background-image: url('../img/groupThree-topBg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.groupThree .top .topImg {
+    width: 100%;
+}
+.groupThree .top .bottomImg {
+    width: 100%;
+}
+.groupThree .top span {
+    font-size: 50px;
+    color: white;
+}
