@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    font-size: 16px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.header {
+    width: 100%;
+    background-color: #008c45;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.header .navLinks {
+    margin: 0px auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .navLinks .linkContainer {
+    width: 20%;
+    transition: all .3s;
+    padding: 19px 0px;
+    text-align: center;
+}
+.header .navLinks .linkContainer:hover {
+    background-color: #00773b;
+    cursor: pointer;
+}
+.header .navLinks .linkContainer a {
+    color: #fff;
+}
+
+.groupOne {
+    height: 800px;
+    background-image: url(../img/groupOne-background.png);
+    background-size: cover;
+    position: relative;
+}
+.groupOne .decoration {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.groupOne .design {
+    margin: 0px auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.groupOne .design img {
+    height: 100px;
+}
+.groupOne .design .left {
+    margin-top: -300px;
+}
+.groupOne .design .logo {
+    margin-top: -50px;
+}
+.groupOne .design .right {
+    margin-top: -90px;
+}
+
+.groupTwo {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.groupTwo img {
+    height: 450px;
+}
+.groupTwo .content {
+    display: flex;
+    flex-direction: column;
+}
+.groupTwo .content .title {
+    text-align: center;
+    font-weight: bold;
+}
+.groupTwo .content .title span {
+    font-size: 80px;
+    width: 60%;
+}
+.groupTwo .content .title span .pizza {
+    color: #df1829
+}
+.groupTwo .content .title span .pasta {
+    color: #008d3d
+}
+.groupTwo .content .text {
+    text-align: center;
+    margin: 40px 0px;
+}
+.groupTwo .content .text span {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+.groupTwo .content .btn button {
+    
+    padding: 15px 60px;
+    background-color: #bf1e2d;
+    border: 1px solid #bf1e2d;
+    transition: all .3s linear;
+}
+.groupTwo .content .btn button a {
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+.groupTwo .content .btn button:hover {
+    padding: 15px 65px;
+    background-color: #ac202d;
+    border: 1px solid #ac202d;
+    cursor: pointer;
+}
